@@ -1,0 +1,152 @@
+/* styles.css */
+body {
+    padding-top: 56px; /* Espaço para a navbar */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.descricao-limitada {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* mostra até 2 linhas */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  min-height: 3.6em; /* mantém espaço reservado mesmo quando curta */
+  max-height: 3.6em;
+}
+
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 960px;
+}
+
+
+.my-navbar {
+    margin-top: -60px;
+    background-color: white;
+}
+
+.my-cart {
+    width: 50%;
+    height: 50%;
+}
+
+.my-logo {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -100px;
+    margin-top: -105px;
+}
+
+.button-search {
+    background-color:#564031;
+    color: white;
+}
+
+.my-search {
+    display: flex;
+}
+
+.pesquisar {
+    width: 400px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.cadastrar {
+    width: 80%;
+    height: 80%;
+}
+
+
+.nav-link {
+    color: #564031;
+    /*para remover animação e cor de link usarei*/
+    text-decoration: none;
+    /* e para remover a troca de cor ao passar o mouse*/
+    transition: none;
+}
+
+.separator {
+    background-color: #564031;
+    width: auto;
+    height: 40px;
+    margin-top: -25px;
+}
+
+.my-list {
+    margin-top: 50px;
+}
+
+.collapse {
+    
+}
+
+.navbar-brando {
+    width: 300px;
+}
+
+/* footer */
+
+
+footer {
+	background-color: #DDCCBA;
+	color: #564031;
+	padding: 20px;
+	text-align: center;
+	margin-top: auto;
+	position: relative;
+  	left: 50%;
+  	right: 50%;
+  	margin-left: -50vw;
+  	margin-right: -50vw;
+  	width: 100vw;
+}
+
+.infos {
+    color: #564031;
+    text-decoration: none;
+}
+
+ul {
+	list-style: none;
+    text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.btn {
+    color: white;
+}
+
+.edit {
+    background-color: #564031;
+    color: white;
+}
+
+.conteudo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-consultar {
+    background-color: #564031;
+    color: white;
+}
+
+.my-navbar-list {
+    background-color: #564031;
+    color: white;
+}
+
+.col-md-6{
+    padding-left: 20%;
+}
